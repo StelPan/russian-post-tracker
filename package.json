@@ -1,0 +1,36 @@
+{
+  "name": "russian-post",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon NODE_ENV=development index",
+    "start": "node index"
+  },
+  "keywords": [
+    "russian",
+    "posts",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "@dadata/suggestions": "^20.11.2",
+    "axios": "^0.27.2",
+    "dadata": "^0.0.3",
+    "dadata-suggestions": "^1.1.1",
+    "dotenv": "^16.0.0",
+    "node-emoji": "^1.11.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "pm2": "^5.2.0",
+    "russian-post": "^1.0.10",
+    "sequelize": "^6.19.0",
+    "sequelize-cli": "^6.4.1",
+    "telegraf": "^4.8.1"
+  }
+}
