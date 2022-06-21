@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "root",
+    "database": "russian_post_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "url": "postgresql://c58820_russian_post_na4u_ru:WaYcoQicdaqos56@postgres.c58820.h2/c58820_russian_post_na4u_ru",
+    "username": "c58820_russian_post_na4u_ru",
+    "password": "WaYcoQicdaqos56",
+    "database": "c58820_russian_post_na4u_ru",
+    "host": "postgres.c58820.h2",
+    "dialect": "postgres"
+  }
+}
