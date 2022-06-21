@@ -27,7 +27,7 @@ async function PostsHandler (ctx) {
     ctx.session.isPostsSearch = true;
 
     await ctx.answerCbQuery();
-    await ctx.editMessageText("Введите адрес:");
+    await ctx.editMessageText("Пример: г Кемерово, ул Сибиряков-Гвардейцев \r\nВведите адрес:");
 }
 
 module.exports = {
